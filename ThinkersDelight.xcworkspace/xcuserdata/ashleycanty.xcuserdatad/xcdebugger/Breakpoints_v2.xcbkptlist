@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThinkersDelight/Model/GamesState.swift"
+            timestampString = "580800433.9413511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "calculatePointsFromRemainingAttempts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThinkersDelight/Model/GamesState.swift"
+            timestampString = "580800433.941761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "GameState"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+            timestampString = "580245672.451058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "HighScoresTableViewControlller"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.__allocating_init(style: __C.UITableViewStyle) -&gt; ThinkersDelight.HighScoresTableViewControlller"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.551983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.init(style: __C.UITableViewStyle) -&gt; ThinkersDelight.HighScoresTableViewControlller"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.554352"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ThinkersDelight.HighScoresTableViewControlller"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.556978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ThinkersDelight.HighScoresTableViewControlller"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.559036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "361">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ThinkersDelight.HighScoresTableViewControlller&gt;"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.560835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ThinkersDelight.HighScoresTableViewControlller&gt;"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.562608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThinkersDelight.HighScoresTableViewControlller.__deallocating_deinit"
+                  moduleName = "ThinkersDelight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashleycanty/Documents/Github/ThinkersDelight/ThinkersDelight/Controller/MainGameScreens/HighScoresTableViewControlller.swift"
+                  timestampString = "580245667.5642999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

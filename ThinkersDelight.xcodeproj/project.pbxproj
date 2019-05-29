@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2418304D22967E6900107AB0 /* GameSessionVC+TimerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2418304C22967E6900107AB0 /* GameSessionVC+TimerHandlers.swift */; };
+		2418304F22967EA000107AB0 /* GameSessionVC+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2418304E22967EA000107AB0 /* GameSessionVC+Alerts.swift */; };
+		244736D122903D8D00B41D69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736D022903D8D00B41D69 /* LoginViewController.swift */; };
+		244736D32290416500B41D69 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736D22290416500B41D69 /* SignUpViewController.swift */; };
+		244736D5229041E900B41D69 /* HomescreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736D4229041E900B41D69 /* HomescreenViewController.swift */; };
+		244736D72290428400B41D69 /* HighScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736D62290428400B41D69 /* HighScoresVC.swift */; };
+		244736DF22904EE300B41D69 /* GameCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736DE22904EE300B41D69 /* GameCategoryVC.swift */; };
+		244736E122904FF100B41D69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736E022904FF100B41D69 /* User.swift */; };
+		244736E32290592900B41D69 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736E22290592900B41D69 /* Extensions.swift */; };
+		244736E622905F1F00B41D69 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736E522905F1F00B41D69 /* CustomTextField.swift */; };
+		244736E8229060E900B41D69 /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244736E7229060E900B41D69 /* CustomUIButton.swift */; };
+		24512D3022973F8F00B5CF94 /* SignUpViewController+FirebaseHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24512D2F22973F8F00B5CF94 /* SignUpViewController+FirebaseHandlers.swift */; };
+		24512D3222973FA700B5CF94 /* SignUpViewController+TextFieldDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24512D3122973FA700B5CF94 /* SignUpViewController+TextFieldDelegates.swift */; };
+		2464941C2298AF0700B42F42 /* HomescreenVC+UIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464941B2298AF0700B42F42 /* HomescreenVC+UIImagePicker.swift */; };
+		2464941E22997D5500B42F42 /* HomescreenVC+MainMenuHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464941D22997D5500B42F42 /* HomescreenVC+MainMenuHandlers.swift */; };
+		2464942022997E5E00B42F42 /* HomescreenVC+API+ProfileHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464941F22997E5E00B42F42 /* HomescreenVC+API+ProfileHandlers.swift */; };
+		246494232299B02B00B42F42 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246494222299B02B00B42F42 /* Results.swift */; };
+		248B4B6E22945607007C793B /* GameDoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B4B6D22945607007C793B /* GameDoneVC.swift */; };
+		24A1551422971F02006605F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24A1551322971F02006605F2 /* GoogleService-Info.plist */; };
+		24A805C52294404D00BE4F93 /* HowToPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A805C42294404D00BE4F93 /* HowToPlayVC.swift */; };
+		24AA3A54229C7EAF00741439 /* HighScoresVC+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA3A53229C7EAF00741439 /* HighScoresVC+TableViewDataSource.swift */; };
+		24AA3A57229CA45000741439 /* LoginVC+TextField+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA3A56229CA45000741439 /* LoginVC+TextField+Delegates.swift */; };
+		24AA3A59229CA49100741439 /* SignupViewController+UIImagePickerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA3A58229CA49100741439 /* SignupViewController+UIImagePickerDelegates.swift */; };
+		24AA3A5C229CA50200741439 /* HighScoresVC+API+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA3A5B229CA50200741439 /* HighScoresVC+API+Handlers.swift */; };
+		24ABF0D622958B7C00F1DEDE /* GameSessionVC+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABF0D522958B7C00F1DEDE /* GameSessionVC+DataSource.swift */; };
+		24ABF0D822958BE000F1DEDE /* GameSessionVC+APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABF0D722958BE000F1DEDE /* GameSessionVC+APICalls.swift */; };
+		24BE18B92294D4FB000ECA38 /* GamesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE18B82294D4FB000ECA38 /* GamesState.swift */; };
+		24C7ECE12293348F00765BF6 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECE02293348F00765BF6 /* ContainerVC.swift */; };
+		24C7ECE5229335F100765BF6 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECE4229335F100765BF6 /* SideMenuVC.swift */; };
+		24C7ECEA22934BFE00765BF6 /* ScoreTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECE922934BFE00765BF6 /* ScoreTableCell.swift */; };
+		24C7ECED229351AD00765BF6 /* GameDifficultyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECEC229351AD00765BF6 /* GameDifficultyVC.swift */; };
+		24C7ECEF229353D800765BF6 /* GameQuestionAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECEE229353D800765BF6 /* GameQuestionAmountVC.swift */; };
+		24C7ECF12293542300765BF6 /* GameSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECF02293542300765BF6 /* GameSessionVC.swift */; };
+		24C7ECF322935A7E00765BF6 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECF222935A7E00765BF6 /* CustomUIView.swift */; };
+		24C7ECF522936C3E00765BF6 /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECF422936C3E00765BF6 /* StaticData.swift */; };
+		24C7ECF72293915400765BF6 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7ECF62293915400765BF6 /* AnswerCell.swift */; };
+		24CAC2DD228DE7E6004B234B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CAC2DC228DE7E6004B234B /* AppDelegate.swift */; };
+		24CAC2DF228DE7E6004B234B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CAC2DE228DE7E6004B234B /* WelcomeViewController.swift */; };
+		24CAC2E2228DE7E6004B234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CAC2E0228DE7E6004B234B /* Main.storyboard */; };
+		24CAC2E5228DE7E6004B234B /* ThinkersDelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24CAC2E3228DE7E6004B234B /* ThinkersDelight.xcdatamodeld */; };
+		24CAC2E7228DE7E7004B234B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CAC2E6228DE7E7004B234B /* Assets.xcassets */; };
+		24CAC2EA228DE7E7004B234B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CAC2E8228DE7E7004B234B /* LaunchScreen.storyboard */; };
+		24CAC2F7228EF297004B234B /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CAC2F6228EF297004B234B /* Trivia.swift */; };
+		24CBD15A229DA72F00A54667 /* GameDoneVC+API+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBD159229DA72F00A54667 /* GameDoneVC+API+Handlers.swift */; };
+		24CBD15D229DFDEE00A54667 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBD15C229DFDEE00A54667 /* ResetPasswordVC.swift */; };
+		24CBD161229E0B9E00A54667 /* SignUpViewController+UIHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBD160229E0B9E00A54667 /* SignUpViewController+UIHandlers.swift */; };
+		DBBE9EED7D0C410B28178241 /* Pods_ThinkersDelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A7C1BFD95B632AE4F8E41 /* Pods_ThinkersDelight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2418304C22967E6900107AB0 /* GameSessionVC+TimerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSessionVC+TimerHandlers.swift"; sourceTree = "<group>"; };
+		2418304E22967EA000107AB0 /* GameSessionVC+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSessionVC+Alerts.swift"; sourceTree = "<group>"; };
+		244736D022903D8D00B41D69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		244736D22290416500B41D69 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		244736D4229041E900B41D69 /* HomescreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomescreenViewController.swift; sourceTree = "<group>"; };
+		244736D62290428400B41D69 /* HighScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresVC.swift; sourceTree = "<group>"; };
+		244736DE22904EE300B41D69 /* GameCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCategoryVC.swift; sourceTree = "<group>"; };
+		244736E022904FF100B41D69 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		244736E22290592900B41D69 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		244736E522905F1F00B41D69 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		244736E7229060E900B41D69 /* CustomUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		24512D2F22973F8F00B5CF94 /* SignUpViewController+FirebaseHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+FirebaseHandlers.swift"; sourceTree = "<group>"; };
+		24512D3122973FA700B5CF94 /* SignUpViewController+TextFieldDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+TextFieldDelegates.swift"; sourceTree = "<group>"; };
+		2464941B2298AF0700B42F42 /* HomescreenVC+UIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomescreenVC+UIImagePicker.swift"; sourceTree = "<group>"; };
+		2464941D22997D5500B42F42 /* HomescreenVC+MainMenuHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomescreenVC+MainMenuHandlers.swift"; sourceTree = "<group>"; };
+		2464941F22997E5E00B42F42 /* HomescreenVC+API+ProfileHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomescreenVC+API+ProfileHandlers.swift"; sourceTree = "<group>"; };
+		246494222299B02B00B42F42 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		248B4B6D22945607007C793B /* GameDoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneVC.swift; sourceTree = "<group>"; };
+		24A1551322971F02006605F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24A805C42294404D00BE4F93 /* HowToPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayVC.swift; sourceTree = "<group>"; };
+		24AA3A53229C7EAF00741439 /* HighScoresVC+TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HighScoresVC+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		24AA3A56229CA45000741439 /* LoginVC+TextField+Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+TextField+Delegates.swift"; sourceTree = "<group>"; };
+		24AA3A58229CA49100741439 /* SignupViewController+UIImagePickerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupViewController+UIImagePickerDelegates.swift"; sourceTree = "<group>"; };
+		24AA3A5B229CA50200741439 /* HighScoresVC+API+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HighScoresVC+API+Handlers.swift"; sourceTree = "<group>"; };
+		24ABF0D522958B7C00F1DEDE /* GameSessionVC+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSessionVC+DataSource.swift"; sourceTree = "<group>"; };
+		24ABF0D722958BE000F1DEDE /* GameSessionVC+APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSessionVC+APICalls.swift"; sourceTree = "<group>"; };
+		24BE18B82294D4FB000ECA38 /* GamesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesState.swift; sourceTree = "<group>"; };
+		24C7ECE02293348F00765BF6 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		24C7ECE4229335F100765BF6 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		24C7ECE922934BFE00765BF6 /* ScoreTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableCell.swift; sourceTree = "<group>"; };
+		24C7ECEC229351AD00765BF6 /* GameDifficultyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDifficultyVC.swift; sourceTree = "<group>"; };
+		24C7ECEE229353D800765BF6 /* GameQuestionAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuestionAmountVC.swift; sourceTree = "<group>"; };
+		24C7ECF02293542300765BF6 /* GameSessionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionVC.swift; sourceTree = "<group>"; };
+		24C7ECF222935A7E00765BF6 /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		24C7ECF422936C3E00765BF6 /* StaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticData.swift; sourceTree = "<group>"; };
+		24C7ECF62293915400765BF6 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		24CAC2D9228DE7E6004B234B /* ThinkersDelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkersDelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CAC2DC228DE7E6004B234B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CAC2DE228DE7E6004B234B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		24CAC2E1228DE7E6004B234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CAC2E4228DE7E6004B234B /* ThinkersDelight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThinkersDelight.xcdatamodel; sourceTree = "<group>"; };
+		24CAC2E6228DE7E7004B234B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CAC2E9228DE7E7004B234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24CAC2EB228DE7E7004B234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CAC2F6228EF297004B234B /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		24CBD159229DA72F00A54667 /* GameDoneVC+API+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameDoneVC+API+Handlers.swift"; sourceTree = "<group>"; };
+		24CBD15C229DFDEE00A54667 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		24CBD160229E0B9E00A54667 /* SignUpViewController+UIHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+UIHandlers.swift"; sourceTree = "<group>"; };
+		24F88318229E69EB00A9B806 /* ThinkersDelight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThinkersDelight.entitlements; sourceTree = "<group>"; };
+		330DCD25A1AF3F569CCEFAEB /* Pods-ThinkersDelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkersDelight.debug.xcconfig"; path = "Target Support Files/Pods-ThinkersDelight/Pods-ThinkersDelight.debug.xcconfig"; sourceTree = "<group>"; };
+		5B4342E34A7A56DADE358D23 /* Pods-ThinkersDelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkersDelight.release.xcconfig"; path = "Target Support Files/Pods-ThinkersDelight/Pods-ThinkersDelight.release.xcconfig"; sourceTree = "<group>"; };
+		678A7C1BFD95B632AE4F8E41 /* Pods_ThinkersDelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkersDelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CAC2D6228DE7E6004B234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBE9EED7D0C410B28178241 /* Pods_ThinkersDelight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244736DD22904EBA00B41D69 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				24CAC2DE228DE7E6004B234B /* WelcomeViewController.swift */,
+				24CBD15B229DFDCE00A54667 /* NewPassword */,
+				24AA3A55229CA42E00741439 /* LoginViewController */,
+				24512D2E22973F6A00B5CF94 /* SignUpViewController */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		244736E422905F0400B41D69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				24C7ECF422936C3E00765BF6 /* StaticData.swift */,
+				244736E22290592900B41D69 /* Extensions.swift */,
+				244736E522905F1F00B41D69 /* CustomTextField.swift */,
+				244736E7229060E900B41D69 /* CustomUIButton.swift */,
+				24C7ECF222935A7E00765BF6 /* CustomUIView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		24512D2E22973F6A00B5CF94 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				244736D22290416500B41D69 /* SignUpViewController.swift */,
+				24AA3A58229CA49100741439 /* SignupViewController+UIImagePickerDelegates.swift */,
+				24512D2F22973F8F00B5CF94 /* SignUpViewController+FirebaseHandlers.swift */,
+				24512D3122973FA700B5CF94 /* SignUpViewController+TextFieldDelegates.swift */,
+				24CBD160229E0B9E00A54667 /* SignUpViewController+UIHandlers.swift */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		2464941A2298AECC00B42F42 /* HomescreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				244736D4229041E900B41D69 /* HomescreenViewController.swift */,
+				2464941D22997D5500B42F42 /* HomescreenVC+MainMenuHandlers.swift */,
+				2464941B2298AF0700B42F42 /* HomescreenVC+UIImagePicker.swift */,
+				2464941F22997E5E00B42F42 /* HomescreenVC+API+ProfileHandlers.swift */,
+			);
+			path = HomescreenVC;
+			sourceTree = "<group>";
+		};
+		246494212299988D00B42F42 /* NewGameSettings */ = {
+			isa = PBXGroup;
+			children = (
+				244736DE22904EE300B41D69 /* GameCategoryVC.swift */,
+				24C7ECEC229351AD00765BF6 /* GameDifficultyVC.swift */,
+				24C7ECEE229353D800765BF6 /* GameQuestionAmountVC.swift */,
+			);
+			path = NewGameSettings;
+			sourceTree = "<group>";
+		};
+		24AA3A55229CA42E00741439 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				244736D022903D8D00B41D69 /* LoginViewController.swift */,
+				24AA3A56229CA45000741439 /* LoginVC+TextField+Delegates.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		24AA3A5A229CA4DA00741439 /* HighScoresVC */ = {
+			isa = PBXGroup;
+			children = (
+				244736D62290428400B41D69 /* HighScoresVC.swift */,
+				24AA3A53229C7EAF00741439 /* HighScoresVC+TableViewDataSource.swift */,
+				24AA3A5B229CA50200741439 /* HighScoresVC+API+Handlers.swift */,
+			);
+			path = HighScoresVC;
+			sourceTree = "<group>";
+		};
+		24ABF0D422958B5B00F1DEDE /* NewGameInSession */ = {
+			isa = PBXGroup;
+			children = (
+				24FCC8FB22977A2A004A32BC /* GameInSession */,
+				24CBD158229DA71800A54667 /* GameDone */,
+			);
+			path = NewGameInSession;
+			sourceTree = "<group>";
+		};
+		24C7ECE2229335B800765BF6 /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				2464941A2298AECC00B42F42 /* HomescreenVC */,
+				24AA3A5A229CA4DA00741439 /* HighScoresVC */,
+				24A805C42294404D00BE4F93 /* HowToPlayVC.swift */,
+			);
+			path = Homescreen;
+			sourceTree = "<group>";
+		};
+		24C7ECE3229335E300765BF6 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				24C7ECE4229335F100765BF6 /* SideMenuVC.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		24C7ECEB2293519800765BF6 /* NewGame */ = {
+			isa = PBXGroup;
+			children = (
+				246494212299988D00B42F42 /* NewGameSettings */,
+				24ABF0D422958B5B00F1DEDE /* NewGameInSession */,
+			);
+			path = NewGame;
+			sourceTree = "<group>";
+		};
+		24CAC2D0228DE7E6004B234B = {
+			isa = PBXGroup;
+			children = (
+				24CAC2DB228DE7E6004B234B /* ThinkersDelight */,
+				24CAC2DA228DE7E6004B234B /* Products */,
+				9E809C51AB214DFB732C0FF4 /* Pods */,
+				D51EBDA7AB6BD52A37C0C412 /* Frameworks */,
+				24A1551322971F02006605F2 /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		24CAC2DA228DE7E6004B234B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CAC2D9228DE7E6004B234B /* ThinkersDelight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CAC2DB228DE7E6004B234B /* ThinkersDelight */ = {
+			isa = PBXGroup;
+			children = (
+				24F88318229E69EB00A9B806 /* ThinkersDelight.entitlements */,
+				24CAC2DC228DE7E6004B234B /* AppDelegate.swift */,
+				24CAC2F2228E7557004B234B /* Controller */,
+				24CAC2F1228E7545004B234B /* View */,
+				24CAC2F3228E7560004B234B /* Model */,
+				244736E422905F0400B41D69 /* Helpers */,
+				24CAC2E6228DE7E7004B234B /* Assets.xcassets */,
+				24CAC2E8228DE7E7004B234B /* LaunchScreen.storyboard */,
+				24CAC2EB228DE7E7004B234B /* Info.plist */,
+				24CAC2E3228DE7E6004B234B /* ThinkersDelight.xcdatamodeld */,
+			);
+			path = ThinkersDelight;
+			sourceTree = "<group>";
+		};
+		24CAC2F1228E7545004B234B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24CAC2E0228DE7E6004B234B /* Main.storyboard */,
+				24C7ECE922934BFE00765BF6 /* ScoreTableCell.swift */,
+				24C7ECF62293915400765BF6 /* AnswerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24CAC2F2228E7557004B234B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24FCC8FC22977A6A004A32BC /* Container+SideMenu */,
+				244736DD22904EBA00B41D69 /* Authentication */,
+				24C7ECE2229335B800765BF6 /* Homescreen */,
+				24C7ECEB2293519800765BF6 /* NewGame */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24CAC2F3228E7560004B234B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				244736E022904FF100B41D69 /* User.swift */,
+				24CAC2F6228EF297004B234B /* Trivia.swift */,
+				24BE18B82294D4FB000ECA38 /* GamesState.swift */,
+				246494222299B02B00B42F42 /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24CBD158229DA71800A54667 /* GameDone */ = {
+			isa = PBXGroup;
+			children = (
+				248B4B6D22945607007C793B /* GameDoneVC.swift */,
+				24CBD159229DA72F00A54667 /* GameDoneVC+API+Handlers.swift */,
+			);
+			path = GameDone;
+			sourceTree = "<group>";
+		};
+		24CBD15B229DFDCE00A54667 /* NewPassword */ = {
+			isa = PBXGroup;
+			children = (
+				24CBD15C229DFDEE00A54667 /* ResetPasswordVC.swift */,
+			);
+			path = NewPassword;
+			sourceTree = "<group>";
+		};
+		24FCC8FB22977A2A004A32BC /* GameInSession */ = {
+			isa = PBXGroup;
+			children = (
+				24C7ECF02293542300765BF6 /* GameSessionVC.swift */,
+				2418304E22967EA000107AB0 /* GameSessionVC+Alerts.swift */,
+				24ABF0D522958B7C00F1DEDE /* GameSessionVC+DataSource.swift */,
+				24ABF0D722958BE000F1DEDE /* GameSessionVC+APICalls.swift */,
+				2418304C22967E6900107AB0 /* GameSessionVC+TimerHandlers.swift */,
+			);
+			path = GameInSession;
+			sourceTree = "<group>";
+		};
+		24FCC8FC22977A6A004A32BC /* Container+SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				24C7ECE02293348F00765BF6 /* ContainerVC.swift */,
+				24C7ECE3229335E300765BF6 /* SideMenu */,
+			);
+			path = "Container+SideMenu";
+			sourceTree = "<group>";
+		};
+		9E809C51AB214DFB732C0FF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				330DCD25A1AF3F569CCEFAEB /* Pods-ThinkersDelight.debug.xcconfig */,
+				5B4342E34A7A56DADE358D23 /* Pods-ThinkersDelight.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D51EBDA7AB6BD52A37C0C412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				678A7C1BFD95B632AE4F8E41 /* Pods_ThinkersDelight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CAC2D8228DE7E6004B234B /* ThinkersDelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CAC2EE228DE7E7004B234B /* Build configuration list for PBXNativeTarget "ThinkersDelight" */;
+			buildPhases = (
+				FB1465D1B14DFAB000028A43 /* [CP] Check Pods Manifest.lock */,
+				24CAC2D5228DE7E6004B234B /* Sources */,
+				24CAC2D6228DE7E6004B234B /* Frameworks */,
+				24CAC2D7228DE7E6004B234B /* Resources */,
+				B6F8BAAD960D842984E3E2EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkersDelight;
+			productName = ThinkersDelight;
+			productReference = 24CAC2D9228DE7E6004B234B /* ThinkersDelight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CAC2D1228DE7E6004B234B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ashley canty";
+				TargetAttributes = {
+					24CAC2D8228DE7E6004B234B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 24CAC2D4228DE7E6004B234B /* Build configuration list for PBXProject "ThinkersDelight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CAC2D0228DE7E6004B234B;
+			productRefGroup = 24CAC2DA228DE7E6004B234B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CAC2D8228DE7E6004B234B /* ThinkersDelight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CAC2D7228DE7E6004B234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CAC2EA228DE7E7004B234B /* LaunchScreen.storyboard in Resources */,
+				24A1551422971F02006605F2 /* GoogleService-Info.plist in Resources */,
+				24CAC2E7228DE7E7004B234B /* Assets.xcassets in Resources */,
+				24CAC2E2228DE7E6004B234B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6F8BAAD960D842984E3E2EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThinkersDelight/Pods-ThinkersDelight-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAConfettiView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThinkersDelight/Pods-ThinkersDelight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1465D1B14DFAB000028A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThinkersDelight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CAC2D5228DE7E6004B234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AA3A59229CA49100741439 /* SignupViewController+UIImagePickerDelegates.swift in Sources */,
+				24CBD161229E0B9E00A54667 /* SignUpViewController+UIHandlers.swift in Sources */,
+				244736D122903D8D00B41D69 /* LoginViewController.swift in Sources */,
+				24C7ECF322935A7E00765BF6 /* CustomUIView.swift in Sources */,
+				24AA3A54229C7EAF00741439 /* HighScoresVC+TableViewDataSource.swift in Sources */,
+				24AA3A57229CA45000741439 /* LoginVC+TextField+Delegates.swift in Sources */,
+				24ABF0D822958BE000F1DEDE /* GameSessionVC+APICalls.swift in Sources */,
+				244736D5229041E900B41D69 /* HomescreenViewController.swift in Sources */,
+				24512D3022973F8F00B5CF94 /* SignUpViewController+FirebaseHandlers.swift in Sources */,
+				24512D3222973FA700B5CF94 /* SignUpViewController+TextFieldDelegates.swift in Sources */,
+				244736D32290416500B41D69 /* SignUpViewController.swift in Sources */,
+				24C7ECE12293348F00765BF6 /* ContainerVC.swift in Sources */,
+				2418304F22967EA000107AB0 /* GameSessionVC+Alerts.swift in Sources */,
+				244736E8229060E900B41D69 /* CustomUIButton.swift in Sources */,
+				244736DF22904EE300B41D69 /* GameCategoryVC.swift in Sources */,
+				244736E122904FF100B41D69 /* User.swift in Sources */,
+				24CAC2DF228DE7E6004B234B /* WelcomeViewController.swift in Sources */,
+				24C7ECF522936C3E00765BF6 /* StaticData.swift in Sources */,
+				24CAC2F7228EF297004B234B /* Trivia.swift in Sources */,
+				24AA3A5C229CA50200741439 /* HighScoresVC+API+Handlers.swift in Sources */,
+				24CBD15A229DA72F00A54667 /* GameDoneVC+API+Handlers.swift in Sources */,
+				24BE18B92294D4FB000ECA38 /* GamesState.swift in Sources */,
+				24CBD15D229DFDEE00A54667 /* ResetPasswordVC.swift in Sources */,
+				2418304D22967E6900107AB0 /* GameSessionVC+TimerHandlers.swift in Sources */,
+				2464941E22997D5500B42F42 /* HomescreenVC+MainMenuHandlers.swift in Sources */,
+				248B4B6E22945607007C793B /* GameDoneVC.swift in Sources */,
+				2464941C2298AF0700B42F42 /* HomescreenVC+UIImagePicker.swift in Sources */,
+				24A805C52294404D00BE4F93 /* HowToPlayVC.swift in Sources */,
+				24ABF0D622958B7C00F1DEDE /* GameSessionVC+DataSource.swift in Sources */,
+				24CAC2DD228DE7E6004B234B /* AppDelegate.swift in Sources */,
+				2464942022997E5E00B42F42 /* HomescreenVC+API+ProfileHandlers.swift in Sources */,
+				24CAC2E5228DE7E6004B234B /* ThinkersDelight.xcdatamodeld in Sources */,
+				24C7ECEF229353D800765BF6 /* GameQuestionAmountVC.swift in Sources */,
+				24C7ECF12293542300765BF6 /* GameSessionVC.swift in Sources */,
+				244736D72290428400B41D69 /* HighScoresVC.swift in Sources */,
+				24C7ECEA22934BFE00765BF6 /* ScoreTableCell.swift in Sources */,
+				246494232299B02B00B42F42 /* Results.swift in Sources */,
+				24C7ECE5229335F100765BF6 /* SideMenuVC.swift in Sources */,
+				24C7ECED229351AD00765BF6 /* GameDifficultyVC.swift in Sources */,
+				24C7ECF72293915400765BF6 /* AnswerCell.swift in Sources */,
+				244736E32290592900B41D69 /* Extensions.swift in Sources */,
+				244736E622905F1F00B41D69 /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24CAC2E0228DE7E6004B234B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CAC2E1228DE7E6004B234B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24CAC2E8228DE7E7004B234B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CAC2E9228DE7E7004B234B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CAC2EC228DE7E7004B234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24CAC2ED228DE7E7004B234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CAC2EF228DE7E7004B234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330DCD25A1AF3F569CCEFAEB /* Pods-ThinkersDelight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThinkersDelight/ThinkersDelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MC43UXZVL;
+				INFOPLIST_FILE = ThinkersDelight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashleycanty.ThinkersDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		24CAC2F0228DE7E7004B234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4342E34A7A56DADE358D23 /* Pods-ThinkersDelight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThinkersDelight/ThinkersDelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MC43UXZVL;
+				INFOPLIST_FILE = ThinkersDelight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashleycanty.ThinkersDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CAC2D4228DE7E6004B234B /* Build configuration list for PBXProject "ThinkersDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CAC2EC228DE7E7004B234B /* Debug */,
+				24CAC2ED228DE7E7004B234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CAC2EE228DE7E7004B234B /* Build configuration list for PBXNativeTarget "ThinkersDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CAC2EF228DE7E7004B234B /* Debug */,
+				24CAC2F0228DE7E7004B234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24CAC2E3228DE7E6004B234B /* ThinkersDelight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24CAC2E4228DE7E6004B234B /* ThinkersDelight.xcdatamodel */,
+			);
+			currentVersion = 24CAC2E4228DE7E6004B234B /* ThinkersDelight.xcdatamodel */;
+			path = ThinkersDelight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24CAC2D1228DE7E6004B234B /* Project object */;
+}
