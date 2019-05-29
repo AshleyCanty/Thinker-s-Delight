@@ -1343,6 +1343,7 @@
                             <constraint firstItem="jco-r4-rom" firstAttribute="top" secondItem="L6k-1W-65Z" secondAttribute="bottom" constant="20" id="h2g-4i-wtc"/>
                             <constraint firstItem="jco-r4-rom" firstAttribute="leading" secondItem="Ma8-Kc-rEL" secondAttribute="leading" constant="12" id="rwV-yt-aBE"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="bTY-H7-fcT"/>
                     </view>
                     <connections>
                         <outlet property="easyScoresButton" destination="VGj-Gk-AhU" id="Duv-bt-hhf"/>

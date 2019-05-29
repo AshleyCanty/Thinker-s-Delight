@@ -23,7 +23,7 @@ extension GameSessionVC {
         let category = userDefaults.string(forKey: UserDefaultKeys.Category.rawValue)
         let level = userDefaults.string(forKey: UserDefaultKeys.Difficulty.rawValue)
         let amount = userDefaults.string(forKey: UserDefaultKeys.Count.rawValue)
-        guard let url = URL(string: "http://opentdb.com/api.php?amount=\(amount ?? "10")&category=\(category ?? "1")&difficulty=\(level ?? "easy")&type=multiple") else { return }
+        guard let url = URL(string: "https://opentdb.com/api.php?amount=\(amount ?? "10")&category=\(category ?? "1")&difficulty=\(level ?? "easy")&type=multiple") else { return }
         
         let session = URLSession.shared
         session.dataTask(with: url) { (data, res, err) in
